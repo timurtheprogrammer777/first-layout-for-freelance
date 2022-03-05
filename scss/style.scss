@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    
+    src: url('../fonts/georgia.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Georgia-italic';
+    
+    src: url('../fonts/georgia_bolditalic.woff2') format('woff2');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 16px;
+}
+
+
+a{
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    li{
+        margin: 0;
+    }
+}
+
+ul{
+    padding: auto;
+    list-style: none;
+    li{
+        margin-top: 0;
+    }
+}
+.container{
+    max-width: 1090px;
+    margin: 0 auto;
+    
+}
+.header__menu{
+    
+    margin-top: 55px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .studio__name{
+        font-family: 'Georgia';
+        text-align: center;
+        display: block;
+        max-width: 200px;
+        font-size: 16px;
+        line-height: 25px;
+        span{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+    }
+    .studio__phone{ 
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 700;
+        max-width: 170px;
+        display: block;
+        text-align: start;
+        span{
+            font-size: 10px;
+            line-height: 11px;
+            font-weight: 400;
+        }
+        
+        
+    }
+    .studio__btn{
+        width: 160px;
+        height: 55px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 14px;
+        padding: 10px 30px 15px;
+        background-color: #13AFBB;
+        border: 1px solid #3FC9D3;
+        cursor: pointer;
+        transition: all .7s;
+        border-radius: 5px;
+        
+    }
+    .li__studio-btn{
+        margin-top: 10px;
+    }
+    .header__menu__link{
+        padding-bottom: 7px;
+        border-bottom: 1px solid #fff;
+        transition: all .7s ;
+    }
+}
+
+.header__menu__link:hover{
+        border-bottom: 1px solid #13AFBB;   
+}
+.studio__btn:hover{
+    background-color: #283a3b;
+}
