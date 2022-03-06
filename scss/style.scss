@@ -47,6 +47,9 @@ ul{
         margin-top: 0;
     }
 }
+
+
+//header start
 .container{
     max-width: 1090px;
     margin: 0 auto;
@@ -119,3 +122,67 @@ ul{
 .studio__btn:hover{
     background-color: #283a3b;
 }
+
+
+//header end
+
+
+//up-slider start
+
+
+.up-slider__inner{
+
+    text-align: center;
+    img{
+        width: 420px;
+        height: 420px;
+    }
+}
+
+
+.slick-arrow{
+    background-color: #13AFBB;
+    border: none;
+}
+
+.slick-prev{
+    color: #fff;
+    position: relative;
+    top: 455px;
+    left: 455px;
+    border-radius: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    font-size: 0;
+    background-image: url(../img/Vector-left.svg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.slick-next{
+    color: #fff;
+    position: absolute;  
+    top: 455px;
+    right: 440px; 
+    border-radius: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    font-size: 0;
+    background-image: url(../img/Vector-right.svg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.slick-next:hover{
+    background-color: #283a3b;
+}
+.slick-prev:hover{
+    background-color: #283a3b;
+}
+//up-slider end 
