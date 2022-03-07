@@ -6,6 +6,7 @@ $(function(){
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows:true
+        
       });
 
       $('.portfolio__slider-inner').slick({
@@ -13,6 +14,7 @@ $(function(){
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows:true
+        
       });
 
 });
